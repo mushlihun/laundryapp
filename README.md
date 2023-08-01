@@ -30,4 +30,7 @@ What is the best app ? View the list apps from [Mushlihun](https://mushlihun.git
 
 3. To run the app in development mode npm start, then open http://localhost:4200 to view it in the browser
 
-[![Watch the video](src/assets/machine.jpg)](src/assets/video.mp4)
+
+https://github.com/mushlihun/laundryapp/assets/6071639/9568fd22-29cb-4ac9-b745-da7406e58f49
+
+
