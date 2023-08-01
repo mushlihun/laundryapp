@@ -1,0 +1,57 @@
+
+<ion-toolbar color="secondary" >
+  <ion-buttons slot="start">
+    <ion-menu-button menu="main-menu"></ion-menu-button>
+  </ion-buttons>
+</ion-toolbar>
+
+
+<ion-content class="ion-padding ion-text-center" color="secondary">
+
+  <div>
+  <img  src="../../assets/banner2.png" class="logo" /> 
+
+  </div>
+  
+<h2><u>Service</u></h2>
+<ion-slides>
+  
+    <ion-card-header [routerLink]="['/selectclothes']">
+      <img  src="../../assets/logo1.png" class="logo1" />
+      <ion-card-subtitle color="dark">Wash Fold</ion-card-subtitle>
+    </ion-card-header>
+    
+    <ion-card-header [routerLink]="['/selectclothes']">
+      <img  src="../../assets/logo2.png" class="logo1" />
+      <ion-card-subtitle color="dark">Wash Iron</ion-card-subtitle>
+    </ion-card-header>
+    
+    
+    <ion-card-header [routerLink]="['/selectclothes']">
+      <img  src="../../assets/logo3.png" class="logo1" />
+      <ion-card-subtitle color="dark">Dry Clean</ion-card-subtitle>
+    </ion-card-header>
+  
+</ion-slides>
+<br>
+
+  <ion-slides >
+    <ion-slide>
+      <h1 [routerLink]="['/offers']"><img src="../../assets/banner1.png" class="banner1" /></h1>
+    </ion-slide>
+  </ion-slides>
+  <br>
+
+  <ion-segment color="primary">
+    <ion-segment-button [routerLink]="['/home2']"value="home">
+      <ion-icon name="home"></ion-icon>
+    </ion-segment-button>
+    <ion-segment-button [routerLink]="['/notifications']" value="notifications">
+      <ion-icon name="notifications"></ion-icon>
+    </ion-segment-button>
+    <ion-segment-button  [routerLink]="['/offers']"value="bookmark">
+      <ion-icon name="bookmark"></ion-icon>
+    </ion-segment-button>
+  </ion-segment>
+
+</ion-content>

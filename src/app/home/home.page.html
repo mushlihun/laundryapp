@@ -1,0 +1,22 @@
+<ion-header>
+
+</ion-header>
+
+<ion-content class="ion-padding ion-text-center" color="secondary">
+    <img src="../../assets/logoapp2.png" class="logo" />
+
+        <h1>WELCOME</h1>
+        <h2>Dry Clean Dream Laundry</h2>
+
+      <ion-grid>
+        <ion-row>
+          <ion-col align-self-center>
+            <ion-button [routerLink]="['/login']" expand="block">Log In</ion-button>
+            <span class="divider line one-line">or</span>
+            <ion-button [routerLink]="['/register']" expand="block" >Register</ion-button>
+            <span class="divider line one-line">or</span>
+            <ion-button [routerLink]="['/admin']" expand="block">Admin</ion-button>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+</ion-content>

@@ -1,0 +1,38 @@
+<ion-app>
+  <ion-menu contentId="main" menuId="main-menu" side="start" type="reveal">
+    <ion-header>
+      <ion-toolbar>
+        <ion-title class="ion-text-center">Menu</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      <ion-list>
+        <ion-menu-toggle autoHide="false">
+          <ion-item [routerLink]="['/home2']">
+            <ion-icon name="home-outline"></ion-icon>
+            <ion-label class="ion-text-center">Home </ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+        <ion-menu-toggle autoHide="false">
+          <ion-item [routerLink]="['/about']">
+            <ion-icon name="alert-circle-outline"></ion-icon>
+            <ion-label class="ion-text-center">About</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+        <ion-menu-toggle autoHide="false">
+          <ion-item [routerLink]="['/contact']">
+            <ion-icon name="call-outline"></ion-icon>
+            <ion-label class="ion-text-center">Contact Us </ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+        <ion-menu-toggle autoHide="false">
+        <ion-item [routerLink]="['/home']">
+          <ion-icon name="log-out-outline"></ion-icon>
+          <ion-label class="ion-text-center">Log Out </ion-label>
+        </ion-item>
+      </ion-menu-toggle>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+  <ion-router-outlet id="main"></ion-router-outlet>
+</ion-app>

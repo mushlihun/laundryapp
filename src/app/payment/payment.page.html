@@ -1,0 +1,62 @@
+<ion-header>
+  <ion-toolbar color="light">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title class="ion-text-center">Checkout</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="secondary">
+  <div class="ion-padding">
+
+    <ion-item>
+      <ion-label position="floating">Name</ion-label>
+      <ion-input type="text" placeholder="Full Name" [(ngModel)]="post.name" required></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Email</ion-label>
+      <ion-input type="email" placeholder="your@gmail.com" [(ngModel)]="post.email" required></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Address</ion-label>
+      <ion-input type="text" placeholder="No/Flat,Postcode,Country" [(ngModel)]="post.address" required></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Service</ion-label>
+      <ion-select value="Wash" okText="Okay" [(ngModel)]="post.services" cancelText="Dismiss">
+        <ion-select-option value="Wash">Wash</ion-select-option>
+        <ion-select-option value="Iron">Iron</ion-select-option>
+        <ion-select-option value="Dry Clean">Dry Clean</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Option</ion-label>
+      <ion-select value="Delivery" okText="Okay" [(ngModel)]="post.option" cancelText="Dismiss">
+        <ion-select-option value="Delivery">Delivery</ion-select-option>
+        <ion-select-option value="Pickup">Pickup</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Total</ion-label>
+      <ion-input type="email" placeholder="RM 0.00" [(ngModel)]="post.total" required></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Message</ion-label>
+      <ion-input [(ngModel)]="post.message"></ion-input>
+    </ion-item>
+
+   
+
+    <ion-button expand="block" color="primary" (click)="createPost(post)">
+      <ion-icon slot="start" name="send"></ion-icon>
+      Submit
+    </ion-button>
+   </div>
+</ion-content>

@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+<ion-item color="secondary"><ion-button  color="secondary" [routerLink]="['/home']">Log out <ion-icon name="log-out-outline"></ion-icon></ion-button></ion-item>
+  </ion-toolbar>
+  </ion-header>
+
+<ion-content class="ion-padding ion-text-center" color=
+"secondary">
+
+  <img src="../../assets/adminlogo.png" class="logo" />
+
+<br>
+      <h1>Welcome Admin <ion-icon name="alert-outline"></ion-icon></h1><br><br>
+
+    <ion-grid>
+      <ion-row>
+        <ion-col align-self-center>
+          <ion-button color="light"[routerLink]="['/orders']" expand="block">Orders</ion-button>
+          <br><br>
+          <ion-button color="light"[routerLink]="['/view-post']" expand="block" >Service</ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+</ion-content>

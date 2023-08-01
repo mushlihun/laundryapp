@@ -1,0 +1,17 @@
+ion-card{
+    width: 242px;
+    height: 370px;
+    background-color: rgb(255, 158, 247);
+    border-radius: 30px;
+    border: 8px solid #ffb390;
+}
+ion-item{
+  border-radius: 12px;
+  height: 90px;
+}
+ion-button{
+  --background: #1ff87d;
+  color: black;
+  width: 200px;
+  padding-left: 100px;
+}

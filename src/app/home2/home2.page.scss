@@ -1,0 +1,41 @@
+ion-segment{
+  color: black;
+  width: 100%;
+}
+
+div{
+    width: 100%;
+    object-position: center;
+}
+h2{
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #000;
+    padding-right: 70%;
+}
+ion-card-header{
+    background-color: rgb(255, 151, 238);
+    border-radius: 12px;
+    height: 125px;
+    width: 200px;
+    border-style: inset;
+}
+ion-card-subtitle{
+    font-size: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.logo{
+    height: 110px;
+    width: 310px;
+}
+.logo1{
+    width: 500px;
+    height: 60px;
+}
+h1{
+    background-color: rgb(255, 151, 238);
+    border-radius: 12px;
+    height: 125px;
+    width: 250px;
+    border-style: inset;
+}

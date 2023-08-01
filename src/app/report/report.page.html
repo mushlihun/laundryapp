@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar color="light">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title class="ion-text-center">Report</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="secondary">
+  <div class="ion-padding">
+
+    <ion-item>
+      <ion-label>Optional</ion-label>
+      <ion-select value="Confirmed Order" okText="Okay" [(ngModel)]="post.report" cancelText="Dismiss">
+        <ion-select-option value="Corfirmed Order">Corfirm</ion-select-option>
+        <ion-select-option value="Your Clothes Pickuped">Pickup</ion-select-option>
+        <ion-select-option value="Order is under process">Process</ion-select-option>
+        <ion-select-option value="Delivered">Delivery</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+   
+
+    <ion-button expand="block" color="primary" (click)="createPost(post)">
+      <ion-icon slot="start" name="send"></ion-icon>
+      Submit
+    </ion-button>
+   </div>
+</ion-content>
