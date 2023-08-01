@@ -5,13 +5,13 @@
 export const environment = {
   production: false,
   firebaseConfig : {
-    apiKey: "AIzaSyCxrzb3Vg42csc3HDCpUyMyiUWbGPpCTEw",
-    authDomain: "drycleanapps.firebaseapp.com",
-    projectId: "drycleanapps",
-    storageBucket: "drycleanapps.appspot.com",
-    messagingSenderId: "815380845040",
-    appId: "1:815380845040:web:bb849007e87f0fc2738d35",
-    measurementId: "G-4FS4F1FC60"
+    apiKey: "AIzaSyDAiEVJWbYHJfxgWUF_N-k5hzU91Il_0tc",
+    authDomain: "laundryapp-2023.firebaseapp.com",
+    projectId: "laundryapp-2023",
+    storageBucket: "laundryapp-2023.appspot.com",
+    messagingSenderId: "12144803772",
+    appId: "1:12144803772:web:4fa3048f8b1b1be277f5b9",
+    measurementId: "G-558R4B3ZQV"
   }
   
 };
